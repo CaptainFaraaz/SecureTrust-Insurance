@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact Us - SecureTrust Insurance</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-brand">
+                <h2>SecureTrust Insurance</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+                <li><a href="quote.html">Get Quote</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Contact Us</h1>
+                <p>Get in touch with our insurance experts today</p>
+            </div>
+        </section>
+
+        <section class="contact-content">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h2>Get In Touch</h2>
+                        <p>Have questions about insurance coverage? Need help with a claim? Our experienced team is here to help you every step of the way.</p>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">📞</div>
+                            <div class="contact-details">
+                                <h3>Phone</h3>
+                                <p>(555) 123-4567</p>
+                                <span>Mon-Fri: 8:00 AM - 6:00 PM<br>Sat: 9:00 AM - 2:00 PM</span>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">📧</div>
+                            <div class="contact-details">
+                                <h3>Email</h3>
+                                <p>info@securetrust.com</p>
+                                <span>We'll respond within 24 hours</span>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div class="contact-details">
+                                <h3>Office Address</h3>
+                                <p>123 Insurance Avenue<br>
+                                Suite 456<br>
+                                Anytown, State 12345</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">🚨</div>
+                            <div class="contact-details">
+                                <h3>24/7 Claims Hotline</h3>
+                                <p>(555) 999-HELP</p>
+                                <span>Available 24/7 for emergencies</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form">
+                        <h2>Send Us a Message</h2>
+                        <form action="#" method="POST" id="contact-form">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" required />
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="email">Email Address *</label>
+                                    <input type="email" id="email" name="email" required />
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">Phone Number</label>
+                                    <input type="tel" id="phone" name="phone" />
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">Subject *</label>
+                                <select id="subject" name="subject" required>
+                                    <option value="">Select a topic</option>
+                                    <option value="quote">Request a Quote</option>
+                                    <option value="claim">File a Claim</option>
+                                    <option value="billing">Billing Question</option>
+                                    <option value="policy">Policy Changes</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea id="message" name="message" rows="5" required placeholder="Please describe how we can help you..."></textarea>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="newsletter" />
+                                    <span class="checkmark"></span>
+                                    I'd like to receive insurance tips and updates via email
+                                </label>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="office-hours">
+            <div class="container">
+                <h2>Office Hours & Location</h2>
+                <div class="hours-grid">
+                    <div class="hours-info">
+                        <h3>Business Hours</h3>
+                        <div class="hours-list">
+                            <div class="day">
+                                <span>Monday - Friday</span>
+                                <span>8:00 AM - 6:00 PM</span>
+                            </div>
+                            <div class="day">
+                                <span>Saturday</span>
+                                <span>9:00 AM - 2:00 PM</span>
+                            </div>
+                            <div class="day">
+                                <span>Sunday</span>
+                                <span>Closed</span>
+                            </div>
+                        </div>
+                        <p class="hours-note">
+                            <strong>Emergency Claims:</strong> Our 24/7 claims hotline is always available for urgent matters.
+                        </p>
+                    </div>
+                    <div class="map-placeholder">
+                        <div class="map-content">
+                            <span>🗺️</span>
+                            <h4>Find Us Here</h4>
+                            <p>123 Insurance Avenue<br />Suite 456<br />Anytown, State 12345</p>
+                            <p><strong>Directions:</strong> Located in the downtown business district with ample parking available.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq">
+            <div class="container">
+                <h2>Frequently Asked Questions</h2>
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <h3>How quickly can I get a quote?</h3>
+                        <p>Most quotes can be provided within 15-30 minutes during business hours. For complex coverage needs, we may need 24-48 hours.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Do you offer payment plans?</h3>
+                        <p>Yes! We offer flexible payment options including monthly, quarterly, and annual payment plans to fit your budget.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>How do I file a claim?</h3>
+                        <p>Call our 24/7 claims hotline at (555) 999-HELP or contact your agent directly. We'll guide you through the entire process.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Can I manage my policy online?</h3>
+                        <p>Yes, our online portal allows you to view your policy, make payments, update information, and access important documents 24/7.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>SecureTrust Insurance</h3>
+                    <p>Your trusted partner in protection since 2010.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>📞 (555) 123-4567</p>
+                    <p>📧 info@securetrust.com</p>
+                    <p>📍 123 Insurance Ave, City, State 12345</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 SecureTrust Insurance. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="coz.js"></script>
+</body>
+</html>
